@@ -222,7 +222,8 @@ public class CSVFile {
 					throw new RuntimeException("compile: invalid"
 							+ " character " + ch);
 				}
-
+				default:
+					assert false;
 			}
 
 		}
